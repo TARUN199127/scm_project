@@ -45,15 +45,14 @@
 }
 
 .members-grid {
-    display: grid;
+   display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
-
-OBOBOBOB@media (max-width: 1024px) {
+{
 OB    .members-grid {
 OB        grid-template-columns: repeat(2, 1fr);
 OBOB        gap: 1.2rem;
